@@ -7,3 +7,12 @@ require (
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms v0.1.2-0.20231108143325-448ed0e3bd2b
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20240509231741-c3d23d929bc6
 )
+
+
+replace github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 => ./pkg/hugo-blox-builder/modules/blox-bootstrap
+replace github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms => ./pkg/hugo-blox-builder/modules/blox-plugin-decap-cms
+
+replace github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify  => ./pkg/hugo-blox-builder/modules/blox-plugin-netlify
+
+
+replace github.com/HugoBlox/hugo-blox-builder/modules/  => ./pkg/hugo-blox-builder/modules/
