@@ -163,7 +163,7 @@ sections:
               </a>
               <a href="/zh/authors/汪洋海/" class="student-card-link">
                 <div class="student-card">
-                  <img src="author/zhaoxiang-zhang/avatar.jpg" alt="汪洋海" class="student-avatar">
+                  <img src="author/yanghai-wang/avatar.jpg" alt="汪洋海" class="student-avatar">
                   <div class="student-name">汪洋海</div>
                   <div class="student-time">2025-至今</div>
                 </div>
