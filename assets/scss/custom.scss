@@ -37,11 +37,11 @@
 
 /* 方案5: 响应式背景 - 根据屏幕尺寸调整 */
 @media (max-width: 768px) {
-  .recruitment-section,
   .block-markdown[id="recruitment"] {
-    background-size: contain; /* 手机上显示完整图片 */
-    background-position: center top;
-    min-height: 400px;
+    background-size: cover; /* 手机上保持填充效果 */
+    background-position: center center;
+    min-height: 90vh;
+    background-attachment: scroll; /* 移动端禁用视差效果 */
   }
   
   .block-hero[id="hero"] {
@@ -51,18 +51,16 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  .recruitment-section,
   .block-markdown[id="recruitment"] {
     background-size: cover; /* 平板上适中效果 */
-    min-height: 500px;
+    min-height: 80vh;
   }
 }
 
 @media (min-width: 1025px) {
-  .recruitment-section,
   .block-markdown[id="recruitment"] {
     background-size: cover; /* 桌面上填充效果 */
-    min-height: 600px;
+    min-height: 80vh;
   }
 }
 
@@ -432,83 +430,294 @@
   transform: none; /* 防止双重变换 */
 }
 
-/* Recruitment Section */
-.recruitment-section {
-  padding: 2rem 0;
-  background: url('../media/New_Journey_United.png') center/contain no-repeat;
-  background-size: contain; /* 可选值: cover, contain, 100% 100%, auto */
-  background-attachment: fixed; /* 视差效果 */
+/* Recruitment Section - 半透明紫色底板设计 */
+.recruitment-container {
   position: relative;
-  min-height: 600px; /* 确保有足够高度显示图片 */
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 2rem 5rem 2rem; /* 顶部padding很小，让标题框离上面很近 */
+  gap: 8rem; /* 两个框之间的间距很大 */
 }
 
-/* 为招生信息添加渐变遮罩 */
-.recruitment-section::before {
+/* 标题框 - 独立的半透明框 */
+.recruitment-title-box {
+  background: rgba(99, 6, 95, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2.5rem 3rem; /* 添加缺失的padding */
+  box-shadow: 0 15px 40px rgba(99, 6, 95, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  max-width: 800px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+/* 内容框 - 独立的半透明框 */
+.recruitment-content-box {
+  background: rgba(99, 6, 95, 0.85);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  padding: 3rem;
+  box-shadow: 0 25px 70px rgba(99, 6, 95, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  max-width: 1400px;
+  width: 100%;
+  color: white;
+}
+
+/* 标题部分样式 */
+.recruitment-header {
+  text-align: center;
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.recruitment-title {
+  color: white !important;
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 1rem !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+}
+
+.recruitment-subtitle {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 1.5rem !important;
+  font-weight: 400 !important;
+  margin-bottom: 0 !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+}
+
+.recruitment-title {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.recruitment-subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.recruitment-intro-section h4 {
+  color: white !important;
+  font-size: 1.8rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 1.5rem !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+}
+
+.recruitment-intro-section h4 i {
+  margin-right: 0.8rem !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.recruitment-intro {
+  font-size: 1.1rem !important;
+  color: rgba(255, 255, 255, 0.95) !important;
+  line-height: 1.8 !important;
+  max-width: 850px !important;
+  margin: 0 auto !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* 优势展示区域 */
+.recruitment-advantages {
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.advantage-item {
+  text-align: center;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.advantage-item:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.advantage-item i {
+  font-size: 2.5rem !important;
+  margin-bottom: 1rem !important;
+  display: block !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.advantage-item h5 {
+  color: white !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.8rem !important;
+  font-size: 1.2rem !important;
+}
+
+.advantage-item p {
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-size: 0.95rem !important;
+  line-height: 1.6 !important;
+}
+
+/* 职位需求部分 */
+.recruitment-positions {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.recruitment-positions h4 {
+  color: white !important;
+  font-size: 1.8rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 2rem !important;
+  text-align: center !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+}
+
+.recruitment-positions h4 i {
+  margin-right: 0.5rem !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.position-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.position-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border-left: 4px solid rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+}
+
+.position-item:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.position-tag {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+  color: white !important;
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  min-width: 120px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.position-desc {
+  color: rgba(255, 255, 255, 0.9) !important;
+  flex: 1;
+  line-height: 1.5 !important;
+}
+
+/* 联系方式部分 */
+.recruitment-contact-section {
+  text-align: center;
+}
+
+.contact-box {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+  color: white !important;
+  padding: 0.5rem;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-box::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(135deg, rgba(151, 66, 135, 0.85) 0%, rgba(122, 53, 110, 0.85) 100%);
+  top: -50%;
+  right: -50%;
+  width: 100%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.05);
+  transform: rotate(45deg);
+  transition: all 0.5s ease;
+}
+
+.contact-box:hover::before {
+  right: -40%;
+}
+
+.contact-box:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.contact-box h5 {
+  font-size: 1.3rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 1rem !important;
+  position: relative;
+  z-index: 1;
+  color: white !important;
+}
+
+.contact-box h5 i {
+  margin-right: 0.5rem !important;
+}
+
+.contact-email {
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5) !important;
+  transition: all 0.3s ease !important;
+  position: relative;
   z-index: 1;
 }
 
-/* 确保内容在遮罩之上 */
-.recruitment-section > * {
+.contact-email:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.8) !important;
+  text-decoration: none !important;
+}
+
+.contact-note {
+  font-size: 0.9rem !important;
+  margin-top: 0.8rem !important;
+  opacity: 0.9 !important;
   position: relative;
-  z-index: 2;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
-.recruitment-card {
-  background: rgba(255, 255, 255, 0.95);
-  padding: 2rem;
-  border-radius: 15px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  height: 100%;
-  border-left: 4px solid var(--primary-color);
-  transition: all 0.3s ease;
-  backdrop-filter: blur(10px);
-}
-
-.recruitment-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 30px rgba(151, 66, 135, 0.15);
-}
-
-.recruitment-card h4 {
-  color: var(--primary-color);
-  margin-bottom: 1.5rem;
-  font-weight: 600;
-}
-
-.recruitment-card h4 i {
-  margin-right: 0.5rem;
-  color: var(--accent-color);
-}
-
-.recruitment-card ul {
-  padding-left: 1.2rem;
-  margin-bottom: 1.5rem;
-}
-
-.recruitment-card li {
-  margin-bottom: 0.5rem;
-  color: #555;
-}
-
-.recruitment-contact {
-  background: rgba(232, 213, 226, 0.95);
-  padding: 2rem;
-  border-radius: 15px;
-  border-left: 4px solid var(--accent-color);
-  backdrop-filter: blur(10px);
-}
-
-.recruitment-contact h5 {
-  color: var(--secondary-color);
-  margin-bottom: 1rem;
-  font-weight: 600;
+.contact-box p {
+  color: white !important;
+  position: relative;
+  z-index: 1;
 }
 
 /* Navigation Enhancement */
@@ -762,11 +971,14 @@
 
 /* 确保 Hugo 块级背景图片显示 */
 .block-markdown[id="recruitment"] {
-  background: url('../media/New_Journey_United.png') center/contain no-repeat;
-  background-size: contain; /* 可选值: cover, contain, 100% 100% */
-  background-attachment: fixed; /* 视差效果 */
+  background: url('../media/New_Journey_United.png') center/cover no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   position: relative;
-  min-height: 600px; /* 确保有足够高度显示图片 */
+  min-height: 80vh;
+  padding: 0; /* 移除默认padding */
+  display: flex;
+  align-items: center;
 }
 
 .block-markdown[id="recruitment"]::before {
@@ -776,7 +988,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(151, 66, 135, 0.85) 0%, rgba(122, 53, 110, 0.85) 100%);
+  background: rgba(99, 6, 95, 0.75);
+  backdrop-filter: blur(2px);
   z-index: 0;
 }
 
@@ -784,6 +997,61 @@
 .block-markdown[id="recruitment"] .container-xl {
   position: relative;
   z-index: 1;
+  width: 100%;
+  max-width: none; /* 移除容器最大宽度限制 */
+  padding: 0; /* 移除容器padding */
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .recruitment-content-box {
+    padding: 2rem 1.5rem;
+    margin: 1rem;
+  }
+  
+  .recruitment-header h3 {
+    font-size: 1.6rem;
+  }
+  
+  .position-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.8rem;
+  }
+  
+  .position-tag {
+    min-width: auto;
+    width: fit-content;
+  }
+  
+  .advantage-item {
+    margin-bottom: 1rem;
+  }
+  
+  .block-markdown[id="recruitment"] {
+    min-height: 90vh;
+    background-attachment: scroll; /* 移动端禁用视差效果 */
+  }
+}
+
+@media (max-width: 480px) {
+  .recruitment-content-box {
+    padding: 1.5rem 1rem;
+  }
+  
+  .recruitment-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .recruitment-advantages {
+    margin-bottom: 2rem;
+  }
+  
+  .recruitment-positions {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
 }
 
 /* 为没有图片时的回退样式 */
@@ -1036,6 +1304,182 @@
   .navbar-brand {
     font-size: 1rem !important;
     margin-left: 0.5rem !important;
+  }
+}
+
+/* ===== 招生部分响应式样式 ===== */
+/* 移动端样式优化 */
+@media (max-width: 768px) {
+  .recruitment-container {
+    padding: 0.5rem 0.5rem 2rem 0.5rem; /* 移动端顶部间距很小 */
+    gap: 4rem; /* 移动端减少框间距，但仍然较大 */
+  }
+  
+  .recruitment-title-box {
+    padding: 2rem 1.5rem;
+    width: 98%;
+    max-width: none;
+  }
+  
+  .recruitment-content-box {
+    padding: 2rem 1.5rem;
+    width: 98%;
+    max-width: none;
+  }
+  
+  .recruitment-title {
+    font-size: 2.2rem;
+  }
+  
+  .recruitment-subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .recruitment-intro-section h4 {
+    font-size: 1.4rem;
+  }
+  
+  .position-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .position-tag {
+    min-width: auto;
+    align-self: center;
+  }
+  
+  .advantage-item {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .advantage-item i {
+    font-size: 2rem;
+  }
+  
+  /* 移动端改为单列显示 */
+  .recruitment-advantages .col-md-4 {
+    margin-bottom: 1rem;
+  }
+}
+
+/* 平板端样式 */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .recruitment-container {
+    padding: 0.5rem 1rem 3rem 1rem; /* 平板端顶部间距小 */
+    gap: 6rem; /* 平板端框间距较大 */
+  }
+  
+  .recruitment-title-box {
+    padding: 2.5rem 2rem;
+    width: 96%;
+    max-width: 700px;
+  }
+  
+  .recruitment-content-box {
+    padding: 3rem 2.5rem;
+    width: 96%;
+    max-width: 1200px;
+  }
+  
+  .recruitment-title {
+    font-size: 2.6rem;
+  }
+  
+  .recruitment-subtitle {
+    font-size: 1.3rem;
+  }
+  
+  /* 平板端改为两列显示 */
+  .recruitment-advantages .col-md-4:nth-child(3n) {
+    margin-top: 1rem;
+  }
+}
+
+/* 大屏幕样式 */
+@media (min-width: 1025px) {
+  .recruitment-container {
+    padding: 1rem 1rem 3rem 1rem; /* 大屏幕顶部间距小 */
+    gap: 8rem; /* 大屏幕框间距最大 */
+  }
+  
+  .recruitment-title-box {
+    width: 80%;
+    max-width: 800px;
+    padding: 3rem;
+  }
+  
+  .recruitment-content-box {
+    width: 92%;
+    max-width: 1400px;
+    padding: 4rem 3rem;
+  }
+}
+
+/* 超大屏幕样式 */
+@media (min-width: 1400px) {
+  .recruitment-container {
+    gap: 10rem; /* 超大屏幕框间距更大 */
+  }
+  
+  .recruitment-title-box {
+    width: 70%;
+    max-width: 900px;
+  }
+  
+  .recruitment-content-box {
+    width: 90%;
+    max-width: 1600px;
+  }
+}
+
+/* 小屏幕手机样式 */
+@media (max-width: 480px) {
+  .recruitment-container {
+    padding: 0.25rem 0.25rem 1rem 0.25rem; /* 小屏幕顶部间距最小 */
+    gap: 3rem; /* 小屏幕框间距适中 */
+  }
+  
+  .recruitment-title-box {
+    padding: 1.5rem 1rem;
+    border-radius: 15px;
+    width: 99%;
+  }
+  
+  .recruitment-content-box {
+    padding: 2rem 1rem;
+    border-radius: 15px;
+    width: 99%;
+  }
+  
+  .recruitment-title {
+    font-size: 1.8rem;
+  }
+  
+  .recruitment-subtitle {
+    font-size: 1rem;
+  }
+  
+  .recruitment-intro-section h4 {
+    font-size: 1.2rem;
+  }
+  
+  .recruitment-intro {
+    font-size: 1rem;
+  }
+  
+  .advantage-item h5 {
+    font-size: 1rem;
+  }
+  
+  .advantage-item p {
+    font-size: 0.9rem;
+  }
+  
+  .contact-box {
+    padding: 1.5rem;
   }
 }
 

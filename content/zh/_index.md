@@ -205,43 +205,96 @@ sections:
   - block: markdown
     id: recruitment
     content:
-      title: 招生信息
-      subtitle: 加入我们的研究团队
+      title: ""
+      subtitle: ""
       text: |
-        <div class="recruitment-section">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="recruitment-card">
-                <h4><i class="fas fa-user-graduate"></i> 博士研究生</h4>
-                <ul>
-                  <li>计算机科学、人工智能相关专业</li>
-                  <li>具有扎实的数学基础和编程能力</li>
-                  <li>对科研工作有浓厚兴趣</li>
-                  <li>具有相关研究经验者优先</li>
-                </ul>
-                <p><strong>待遇：</strong>提供具有竞争力的奖学金和研究津贴</p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="recruitment-card">
-                <h4><i class="fas fa-user-graduate"></i> 硕士研究生</h4>
-                <ul>
-                  <li>计算机、数学、电子信息等相关专业</li>
-                  <li>学习成绩优秀，英语水平良好</li>
-                  <li>有志于AI领域的深入研究</li>
-                  <li>具有团队合作精神</li>
-                </ul>
-                <p><strong>培养：</strong>一对一导师指导，参与前沿科研项目</p>
-              </div>
+        <div class="recruitment-container">
+          <!-- 标题框 - 独立的半透明框 -->
+          <div class="recruitment-title-box">
+            <div class="recruitment-header">
+              <h2 class="recruitment-title">加入我们</h2>
+              <h3 class="recruitment-subtitle">与我们一起探索智能的未来</h3>
             </div>
           </div>
           
-          <div class="row mt-4">
-            <div class="col-md-12">
-              <div class="recruitment-contact">
-                <h5>联系方式</h5>
-                <p>如果您对加入我们的团队感兴趣，请发送简历至：<a href="mailto:recruitment@nju-link.org">recruitment@nju-link.org</a></p>
-                <p>邮件主题请注明：【姓名-申请类型-专业背景】</p>
+          <!-- 内容框 - 独立的半透明框 -->
+          <div class="recruitment-content-box">
+            <div class="recruitment-intro-section">
+              <h4><i class="fas fa-handshake"></i> 我们长期开放各类合作机会</h4>
+              <p class="recruitment-intro">
+                诚邀有志于人工智能领域的优秀人才加入我们的研究团队。无论您是<strong>博士研究生</strong>、<strong>硕士研究生</strong>、<strong>科研实习生</strong>或是<strong>学术合作者</strong>，我们都热忱欢迎您的到来。
+              </p>
+            </div>
+            <div class="recruitment-advantages">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="advantage-item">
+                    <i class="fas fa-users text-primary"></i>
+                    <h5>开放自由的学术氛围</h5>
+                    <p>鼓励创新思维，支持弹性和远程科研，营造自由的学术工作环境</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="advantage-item">
+                    <i class="fas fa-server text-primary"></i>
+                    <h5>丰富的计算资源</h5>
+                    <p>配备高性能GPU集群，充足的算力资源支撑大规模实验</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="advantage-item">
+                    <i class="fas fa-industry text-primary"></i>
+                    <h5>深度产学研合作</h5>
+                    <p>与快手、阿里、字节、上海AI Lab等顶级企业密切合作</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="advantage-item">
+                    <i class="fas fa-graduation-cap text-primary"></i>
+                    <h5>个性化培养方案</h5>
+                    <p>与企业导师联合指导，参与前沿项目，提供国际交流机会</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="advantage-item">
+                    <i class="fas fa-award text-primary"></i>
+                    <h5>优厚的奖学金待遇</h5>
+                    <p>提供具有竞争力的研究津贴，保障学习生活</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="advantage-item">
+                    <i class="fas fa-globe text-primary"></i>
+                    <h5>国际交流机会</h5>
+                    <p>支持参加国际顶级会议，与世界一流学者交流合作</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="recruitment-positions">
+              <h4><i class="fas fa-rocket"></i> 我们期待这样的你</h4>
+              <div class="position-grid">
+                <div class="position-item">
+                  <span class="position-tag">博士 · 硕士</span>
+                  <span class="position-desc">计算机、AI相关专业，有扎实的数学基础和编程能力</span>
+                </div>
+                <div class="position-item">
+                  <span class="position-tag">研究助理</span>
+                  <span class="position-desc">本科及以上学历，对AI研究充满热情，具备良好的学习能力</span>
+                </div>
+                <div class="position-item">
+                  <span class="position-tag">合作学者</span>
+                  <span class="position-desc">相关领域研究经验，期待建立长期学术合作关系</span>
+                </div>
+              </div>
+            </div>
+            <div class="recruitment-contact-section">
+              <div class="contact-box">
+                <h5><i class="fas fa-envelope"></i> 联系我们</h5>
+                <p>发送简历至：<a href="liujiaheng@nju.edu.cn" class="contact-email">liujiaheng@nju.edu.cn</a></p>
+                <p class="contact-note">邮件主题请注明：【姓名-申请类型-专业背景】</p>
               </div>
             </div>
           </div>
