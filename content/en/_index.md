@@ -1,28 +1,34 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2024-07-09
+date: 2025-07-09
 type: landing
 
 sections:
+  # Hero section with lab introduction and logos
   - block: hero
     id: hero
     content:
       title: |
-        <div class="university-header">
-          <div class="institute-info">
-            <img src="assets/media/nju_02.png" alt="School of Intelligence Science and Technology, Nanjing University" class="institute-logo">
-            <span class="institute-name">School of Intelligence Science and Technology</span>
+        <div class="hero-main">
+          <div class="hero-left">
+            <img src="/nju-link/media/logo.png" alt="NJU-LINK Laboratory" class="main-lab-logo">
           </div>
-          <div class="lab-info">
-            <img src="media/logo.png" alt="NJU-LINK Laboratory" class="lab-logo">
-            <span class="lab-name">NJU-LINK Laboratory</span>
+          <div class="hero-right">
+            <div class="hero-text-container">
+              <h1 class="hero-title">NJU-LINK Laboratory</h1>
+              <h2 class="hero-subtitle">Large-scale Intelligence and Knowledge Lab, Nanjing University</h2>
+              <div class="hero-description">
+                <p>
+                <br>Focused on cutting-edge research and applications in artificial intelligence, covering key technological fields including embodied intelligence, large language models, and multimodal large models.</br>
+                <br>The laboratory has established long-term stable partnerships with leading domestic technology companies such as Kuaishou, Alibaba, ByteDance, and Shanghai AI Lab, conducting in-depth collaborative research on world models, large model training, inference, and evaluation. The laboratory is equipped with rich computational resources and high-quality data assets, providing solid support for high-level research.</br>
+                <br>We firmly believe that open collaboration and continuous exploration are the key paths to advancing artificial intelligence toward general intelligence. We welcome more like-minded partners to join us in driving technological transformation and industrial innovation in the intelligent era.</br>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      text: |
-        **School of Intelligence Science and Technology at Nanjing University** is a leading institution for artificial intelligence education and research in China, dedicated to cultivating high-level talents with international perspectives in the field of AI.
-        
-        The school focuses on cutting-edge theoretical research and technological innovation in machine learning, deep learning, graph neural networks, knowledge graphs, natural language processing, and other frontier fields.
+
     design:
       background:
         image:
@@ -44,6 +50,7 @@ sections:
         author: ''
         category: ''
         exclude_featured: false
+        featured: true
         publication_type: ''
         tag: ''
       offset: 0
@@ -54,35 +61,6 @@ sections:
       columns: '1'
       spacing:
         padding: ['20px', '0', '20px', '0']
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
-
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
-
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
 
   # Research Areas section
   - block: markdown
@@ -95,55 +73,28 @@ sections:
           <div class="col-md-4 mb-4">
             <div class="research-card">
               <div class="research-icon">
-                <i class="fas fa-brain fa-3x"></i>
-              </div>
-              <h4>Machine Learning & Deep Learning</h4>
-              <p>Advanced algorithms in deep neural networks, reinforcement learning, and transfer learning</p>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="research-card">
-              <div class="research-icon">
-                <i class="fas fa-project-diagram fa-3x"></i>
-              </div>
-              <h4>Graph Neural Networks</h4>
-              <p>Graph representation learning, graph convolutional networks, and spatio-temporal GNNs</p>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="research-card">
-              <div class="research-icon">
-                <i class="fas fa-network-wired fa-3x"></i>
-              </div>
-              <h4>Knowledge Graphs</h4>
-              <p>Knowledge extraction, fusion, reasoning, and question answering</p>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="research-card">
-              <div class="research-icon">
                 <i class="fas fa-robot fa-3x"></i>
               </div>
-              <h4>Natural Language Processing</h4>
-              <p>Text understanding, machine translation, and dialogue systems</p>
+              <h4>Embodied Intelligence</h4>
+              <p>Multimodal environment interaction, agent architecture and evolution, world models</p>
             </div>
           </div>
           <div class="col-md-4 mb-4">
             <div class="research-card">
               <div class="research-icon">
-                <i class="fas fa-eye fa-3x"></i>
+                <i class="fas fa-comment-dots fa-3x"></i>
               </div>
-              <h4>Computer Vision</h4>
-              <p>Image recognition, object detection, and video analysis</p>
+              <h4>Large Language Models</h4>
+              <p>Pre-training, code intelligence, acceleration</p>
             </div>
           </div>
           <div class="col-md-4 mb-4">
             <div class="research-card">
               <div class="research-icon">
-                <i class="fas fa-chart-line fa-3x"></i>
+                <i class="fas fa-video fa-3x"></i>
               </div>
-              <h4>Data Mining</h4>
-              <p>Big data analysis, recommendation systems, and social network analysis</p>
+              <h4>Multimodal Large Models</h4>
+              <p>Visual understanding and generation, evaluation, reasoning and alignment</p>
             </div>
           </div>
         </div>
@@ -166,89 +117,60 @@ sections:
           <div class="people-group">
             <h3 class="people-group-title">Faculty</h3>
             <div class="teachers-grid">
-              <div class="teacher-card">
-                <img src="authors/alice-wu-吳恩達/avatar.jpg" alt="Prof. Alice Wu" class="teacher-photo">
-                <div class="teacher-info">
-                  <h4>Prof. Alice Wu</h4>
-                  <div class="teacher-title">PhD Supervisor · Director of AI Research Center</div>
-                  <div class="teacher-bio">PhD from Stanford University, with deep expertise in machine learning and deep learning, published 100+ papers in top conferences.</div>
-                  <div class="teacher-research"><strong>Research Areas:</strong> Deep Learning, Machine Learning, Computer Vision</div>
+                <div class="teacher-card">
+                  <a href="https://zhaoxiangzhang.net/" target="_blank">
+                    <img src="authors/zhaoxiang-zhang/avatar.jpg" alt="Prof. Zhaoxiang Zhang" class="teacher-photo">
+                  </a>
+                  <div class="teacher-info">
+                    <h4>Prof. Zhaoxiang Zhang</h4>
+                    <div class="teacher-title">PhD Supervisor · Laboratory Director</div>
+                    <div class="teacher-bio"><strong>Cheung Kong Scholar of the Ministry of Education</strong>, <strong>Young Top-notch Talent of the National Ten Thousand Talents Program</strong>, <strong>New Century Excellent Talent of the Ministry of Education</strong>.
+                      <br>Researcher and PhD supervisor at the <a href="https://nlpr.ia.ac.cn/cn/index.html" target="_blank">Multimodal Artificial Intelligence Systems Laboratory</a> and <a href="http://cripac.ia.ac.cn/CN/model/index.htm" target="_blank">Pattern Recognition Laboratory</a> of the Institute of Automation, Chinese Academy of Sciences,
+                      Professor at <a href="http://www.ucas.ac.cn/" target="_blank">University of Chinese Academy of Sciences</a>,
+                      Core member of the <a href="http://www.cebs.ac.cn/" target="_blank">Center for Excellence in Brain Science and Intelligence Technology, Chinese Academy of Sciences</a>,
+                      Executive Deputy Director of the <a href="http://www.cripac.ia.ac.cn/CN/column/column144.shtml" target="_blank">Pattern Recognition Laboratory, Institute of Automation, Chinese Academy of Sciences</a>.</br>
+                      <br>IEEE Senior Member, VALSE Standing AC, CCF Distinguished Member, CAAI Distinguished Member, CAAI Deputy Secretary-General, CAAI Board Member, Secretary-General of CAAI Pattern Recognition Committee</br>
+                    </div>
+                    <div class="teacher-research"><strong>Research Areas:</strong> Visual cognitive computing, brain-inspired learning, embodied intelligence, and visual perception and understanding for open environments</div>
+                  </div>
                 </div>
-              </div>
-              <div class="teacher-card">
-                <img src="authors/robert-ford/avatar.jpg" alt="Prof. Robert Ford" class="teacher-photo">
-                <div class="teacher-info">
-                  <h4>Prof. Robert Ford</h4>
-                  <div class="teacher-title">PhD Supervisor · Director of Graph Neural Networks Lab</div>
-                  <div class="teacher-bio">PhD from MIT, specializing in graph neural networks and knowledge graphs research, IEEE Fellow.</div>
-                  <div class="teacher-research"><strong>Research Areas:</strong> Graph Neural Networks, Knowledge Graphs, Network Analysis</div>
+                <div class="teacher-card">
+                  <a href="https://liujiaheng.github.io/" target="_blank">
+                    <img src="authors/jiaheng-liu/avatar.jpg" alt="Asst. Prof. Jiaheng Liu" class="teacher-photo">
+                  </a>
+                  <div class="teacher-info">
+                    <h4>Asst. Prof. Jiaheng Liu</h4>
+                    <div class="teacher-title">PhD Supervisor · Executive Deputy Director</div>
+                    <div class="teacher-bio"><strong>Alibaba Star</strong>, <strong>One of the founding members of Multimodal Art Projection (M-A-P)</strong>.
+                      <br>In recent years, he has published more than 50 papers in top international academic journals and conferences such as ICML, NeurIPS, ICLR, ACL, CVPR, ICCV, with more than 20 first-author and corresponding-author papers, over 2000 Google Scholar citations, and received the ACL 2024 Outstanding Paper Award. He has long served as a reviewer for top international academic journals and conferences such as IEEE TPAMI, TIP, NeurIPS, ICLR, CVPR, ICCV and as an ACL ARR Area Chair, and organized large model foundation workshops at the top international academic conference ICLR.</br>
+                    </div>
+                    <div class="teacher-research"><strong>Research Areas:</strong> Pre-training, alignment, code intelligence, and evaluation of large language models and multimodal large models</div>
+                  </div>
                 </div>
-              </div>
             </div>
           </div>
-          
-          <!-- PhD Students -->
-          <div class="people-group">
-            <h3 class="people-group-title">PhD Students</h3>
-            <div class="students-grid">
-              <div class="student-card">
-                <img src="authors/nelson-bighetti/avatar.jpg" alt="Zhang San" class="student-avatar">
-                <div class="student-name">Zhang San</div>
-                <div class="student-time">Enrolled 2021</div>
-                <div class="student-major">Machine Learning</div>
-              </div>
-              <div class="student-card">
-                <img src="authors/alice-wu-吳恩達/avatar.jpg" alt="Li Si" class="student-avatar">
-                <div class="student-name">Li Si</div>
-                <div class="student-time">Enrolled 2022</div>
-                <div class="student-major">Graph Neural Networks</div>
-              </div>
-            </div>
-          </div>
-          
+  
           <!-- Master Students -->
           <div class="people-group">
             <h3 class="people-group-title">Master Students</h3>
             <div class="students-grid">
-              <div class="student-card">
-                <img src="authors/robert-ford/avatar.jpg" alt="Wang Wu" class="student-avatar">
-                <div class="student-name">Wang Wu</div>
-                <div class="student-time">Enrolled 2023</div>
-                <div class="student-major">Natural Language Processing</div>
-              </div>
-              <div class="student-card">
-                <img src="authors/nelson-bighetti/avatar.jpg" alt="Zhao Liu" class="student-avatar">
-                <div class="student-name">Zhao Liu</div>
-                <div class="student-time">Enrolled 2023</div>
-                <div class="student-major">Computer Vision</div>
-              </div>
-              <div class="student-card">
-                <img src="authors/alice-wu-吳恩達/avatar.jpg" alt="Qian Qi" class="student-avatar">
-                <div class="student-name">Qian Qi</div>
-                <div class="student-time">Enrolled 2024</div>
-                <div class="student-major">Reinforcement Learning</div>
-              </div>
+              <a href="www.leexeo.com" class="student-card-link">
+                <div class="student-card">
+                  <img src="authors/shihao-li/avatar.jpg" alt="Shihao Li" class="student-avatar">
+                  <div class="student-name">Shihao Li</div>
+                  <div class="student-time">2025-Present</div>
+                </div>
+              </a>
+              <a href="/en/authors/yanghai-wang/" class="student-card-link">
+                <div class="student-card">
+                  <img src="authors/yanghai-wang/avatar.jpg" alt="Yanghai Wang" class="student-avatar">
+                  <div class="student-name">Yanghai Wang</div>
+                  <div class="student-time">2025-Present</div>
+                </div>
+              </a>
             </div>
           </div>
           
-          <!-- Alumni -->
-          <div class="people-group">
-            <h3 class="people-group-title">Distinguished Alumni</h3>
-            <div class="students-grid">
-              <div class="student-card">
-                <img src="authors/robert-ford/avatar.jpg" alt="Sun Ba" class="student-avatar">
-                <div class="student-name">Sun Ba</div>
-                <div class="student-time">Graduated 2020</div>
-                <div class="student-major">Researcher at Tencent AI Lab</div>
-              </div>
-              <div class="student-card">
-                <img src="authors/nelson-bighetti/avatar.jpg" alt="Zhou Jiu" class="student-avatar">
-                <div class="student-name">Zhou Jiu</div>
-                <div class="student-time">Graduated 2019</div>
-                <div class="student-major">Expert at Alibaba DAMO Academy</div>
-              </div>
-            </div>
-          </div>
         </div>
     design:
       columns: '1'
@@ -283,43 +205,96 @@ sections:
   - block: markdown
     id: recruitment
     content:
-      title: Join Us
-      subtitle: Become Part of Our Research Team
+      title: ""
+      subtitle: ""
       text: |
-        <div class="recruitment-section">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="recruitment-card">
-                <h4><i class="fas fa-user-graduate"></i> PhD Students</h4>
-                <ul>
-                  <li>Computer Science, AI or related fields</li>
-                  <li>Strong mathematical foundation and programming skills</li>
-                  <li>Passionate about research work</li>
-                  <li>Previous research experience preferred</li>
-                </ul>
-                <p><strong>Benefits:</strong> Competitive scholarships and research stipends</p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="recruitment-card">
-                <h4><i class="fas fa-user-graduate"></i> Master Students</h4>
-                <ul>
-                  <li>Computer Science, Mathematics, EE or related fields</li>
-                  <li>Excellent academic record and good English proficiency</li>
-                  <li>Aspiration for in-depth AI research</li>
-                  <li>Team collaboration spirit</li>
-                </ul>
-                <p><strong>Training:</strong> One-on-one mentorship and cutting-edge research projects</p>
-              </div>
+        <div class="recruitment-container">
+          <!-- Title Box - Independent Semi-transparent Box -->
+          <div class="recruitment-title-box">
+            <div class="recruitment-header">
+              <h2 class="recruitment-title">Join Us</h2>
+              <h3 class="recruitment-subtitle">Explore the Future of Intelligence Together</h3>
             </div>
           </div>
           
-          <div class="row mt-4">
-            <div class="col-md-12">
-              <div class="recruitment-contact">
-                <h5>Contact Information</h5>
-                <p>If you are interested in joining our team, please send your CV to: <a href="mailto:recruitment@nju-link.org">recruitment@nju-link.org</a></p>
-                <p>Email subject: [Name-Application Type-Background]</p>
+          <!-- Content Box - Independent Semi-transparent Box -->
+          <div class="recruitment-content-box">
+            <div class="recruitment-intro-section">
+              <h4><i class="fas fa-handshake"></i> We Welcome Various Collaboration Opportunities</h4>
+              <p class="recruitment-intro">
+                We cordially invite outstanding talents passionate about artificial intelligence to join our research team. Whether you are a <strong>PhD student</strong>, <strong>Master student</strong>, <strong>research intern</strong>, or <strong>academic collaborator</strong>, we warmly welcome you.
+              </p>
+            </div>
+            <div class="recruitment-advantages">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="advantage-item">
+                    <i class="fas fa-users text-primary"></i>
+                    <h5>Open and Free Academic Atmosphere</h5>
+                    <p>Encouraging innovative thinking, supporting flexible and remote research, creating a free academic working environment</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="advantage-item">
+                    <i class="fas fa-server text-primary"></i>
+                    <h5>Rich Computational Resources</h5>
+                    <p>Equipped with high-performance GPU clusters, ample computing resources supporting large-scale experiments</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="advantage-item">
+                    <i class="fas fa-industry text-primary"></i>
+                    <h5>Deep Industry-Academia Collaboration</h5>
+                    <p>Close partnerships with top companies like Kuaishou, Alibaba, ByteDance, Shanghai AI Lab</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="advantage-item">
+                    <i class="fas fa-graduation-cap text-primary"></i>
+                    <h5>Personalized Training Program</h5>
+                    <p>Joint supervision with industry mentors, participation in cutting-edge projects, international exchange opportunities</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="advantage-item">
+                    <i class="fas fa-award text-primary"></i>
+                    <h5>Competitive Scholarship Benefits</h5>
+                    <p>Providing competitive research stipends to ensure quality study and life</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="advantage-item">
+                    <i class="fas fa-globe text-primary"></i>
+                    <h5>International Exchange Opportunities</h5>
+                    <p>Supporting participation in top international conferences and collaboration with world-class scholars</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="recruitment-positions">
+              <h4><i class="fas fa-rocket"></i> We're Looking for Candidates Like You</h4>
+              <div class="position-grid">
+                <div class="position-item">
+                  <span class="position-tag">PhD · Master</span>
+                  <span class="position-desc">Computer Science, AI-related majors, with solid mathematical foundation and programming skills</span>
+                </div>
+                <div class="position-item">
+                  <span class="position-tag">Research Assistant</span>
+                  <span class="position-desc">Bachelor's degree or above, passionate about AI research, with good learning ability</span>
+                </div>
+                <div class="position-item">
+                  <span class="position-tag">Collaborative Scholar</span>
+                  <span class="position-desc">Research experience in related fields, looking forward to establishing long-term academic collaboration</span>
+                </div>
+              </div>
+            </div>
+            <div class="recruitment-contact-section">
+              <div class="contact-box">
+                <h5><i class="fas fa-envelope"></i> Contact Us</h5>
+                <p>Send your CV to: <a href="liujiaheng@nju.edu.cn" class="contact-email">liujiaheng@nju.edu.cn</a></p>
+                <p class="contact-note">Email subject: [Name-Application Type-Academic Background]</p>
               </div>
             </div>
           </div>
