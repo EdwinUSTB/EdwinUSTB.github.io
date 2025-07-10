@@ -119,7 +119,7 @@ sections:
             <div class="teachers-grid">
                 <div class="teacher-card">
                   <a href="https://zhaoxiangzhang.net/" target="_blank">
-                    <img src="/nju-link/zh/authors/张兆翔/avatar.jpg" alt="张兆翔教授" class="teacher-photo">
+                    <img src="author/zhaoxiang-zhang/avatar.jpg" alt="张兆翔教授" class="teacher-photo">
                   </a>
                   <div class="teacher-info">
                     <h4>张兆翔 教授</h4>
@@ -132,11 +132,11 @@ sections:
                       <br>IEEE高级会员，VALSE常务AC，中国计算机学会CCF杰出会员、中国人工智能学会CAAI杰出会员、中国人工智能学会CAAI副秘书长、中国人工智能学会CAAI理事、中国人工智能学会CAAI模式识别专委会秘书长</br>
                     </div>
                     <div class="teacher-research"><strong>研究方向：</strong>视觉认知计算、类脑学习、具身智能和面向开放环境的视觉感知与理解</div>
-                  </div>
+                  </div>  
                 </div>
                 <div class="teacher-card">
                   <a href="https://liujiaheng.github.io/" target="_blank">
-                    <img src="/nju-link/zh/authors/刘佳恒/avatar.jpg" alt="刘佳恒助理教授" class="teacher-photo">
+                    <img src="author/jiaheng-liu/avatar.jpg" alt="刘佳恒助理教授" class="teacher-photo">
                   </a>
                   <div class="teacher-info">
                     <h4>刘佳恒 助理教授</h4>
@@ -154,16 +154,16 @@ sections:
           <div class="people-group">
             <h3 class="people-group-title">硕士研究生</h3>
             <div class="students-grid">
-              <a href="www.leexeo.com" class="student-card-link">
+              <a href="https://leexeo.com/" class="student-card-link" target="_blank">
                 <div class="student-card">
-                  <img src="/nju-link/zh/authors/李世昊/avatar.jpg" alt="李世昊" class="student-avatar">
+                  <img src="author/shihao-li/avatar.jpg" alt="李世昊" class="student-avatar">
                   <div class="student-name">李世昊</div>
                   <div class="student-time">2025-至今</div>
                 </div>
               </a>
               <a href="/zh/authors/汪洋海/" class="student-card-link">
                 <div class="student-card">
-                  <img src="/nju-link/zh/authors/汪洋海/avatar.jpg" alt="汪洋海" class="student-avatar">
+                  <img src="author/zhaoxiang-zhang/avatar.jpg" alt="汪洋海" class="student-avatar">
                   <div class="student-name">汪洋海</div>
                   <div class="student-time">2025-至今</div>
                 </div>

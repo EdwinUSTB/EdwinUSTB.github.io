@@ -119,7 +119,7 @@ sections:
             <div class="teachers-grid">
                 <div class="teacher-card">
                   <a href="https://zhaoxiangzhang.net/" target="_blank">
-                    <img src="/nju-link/en/authors/zhaoxiang-zhang/avatar.jpg" alt="Prof. Zhaoxiang Zhang" class="teacher-photo">
+                    <img src="author/zhaoxiang-zhang/avatar.jpg" alt="Prof. Zhaoxiang Zhang" class="teacher-photo">
                   </a>
                   <div class="teacher-info">
                     <h4>Prof. Zhaoxiang Zhang</h4>
@@ -136,7 +136,7 @@ sections:
                 </div>
                 <div class="teacher-card">
                   <a href="https://liujiaheng.github.io/" target="_blank">
-                    <img src="/nju-link/en/authors/jiaheng-liu/avatar.jpg" alt="Asst. Prof. Jiaheng Liu" class="teacher-photo">
+                    <img src="author/jiaheng-liu/avatar.jpg" alt="Asst. Prof. Jiaheng Liu" class="teacher-photo">
                   </a>
                   <div class="teacher-info">
                     <h4>Asst. Prof. Jiaheng Liu</h4>
@@ -154,16 +154,16 @@ sections:
           <div class="people-group">
             <h3 class="people-group-title">Master Students</h3>
             <div class="students-grid">
-              <a href="www.leexeo.com" class="student-card-link">
+              <a href="https://leexeo.com/" class="student-card-link" target="_blank">
                 <div class="student-card">
-                  <img src="/nju-link/en/authors/shihao-li/avatar.jpg" alt="Shihao Li" class="student-avatar">
+                  <img src="author/shihao-li/avatar.jpg" alt="Shihao Li" class="student-avatar">
                   <div class="student-name">Shihao Li</div>
                   <div class="student-time">2025-Present</div>
                 </div>
               </a>
               <a href="/en/authors/yanghai-wang/" class="student-card-link">
                 <div class="student-card">
-                  <img src="/nju-link/en/authors/yanghai-wang/avatar.jpg" alt="Yanghai Wang" class="student-avatar">
+                  <img src="author/yanghai-wang/avatar.jpg" alt="Yanghai Wang" class="student-avatar">
                   <div class="student-name">Yanghai Wang</div>
                   <div class="student-time">2025-Present</div>
                 </div>
