@@ -8,7 +8,8 @@ image:
   caption: 'ICML 2024 会议现场'
   focal_point: ""
   preview_only: false
-
+  width: 1000
+  height: 500
 authors:
   - zhang-professor
   - li-ming
