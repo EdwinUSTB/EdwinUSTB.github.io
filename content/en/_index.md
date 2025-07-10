@@ -15,7 +15,7 @@ sections:
             <span class="institute-name">School of Intelligence Science and Technology</span>
           </div>
           <div class="lab-info">
-            <img src="assets/media/logo.png" alt="NJU-LINK Laboratory" class="lab-logo">
+            <img src="media/logo.png" alt="NJU-LINK Laboratory" class="lab-logo">
             <span class="lab-name">NJU-LINK Laboratory</span>
           </div>
         </div>

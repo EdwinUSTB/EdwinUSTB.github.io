@@ -22,7 +22,7 @@ location: "南京大学苏州校区"
 # 联系信息
 contact_info:
   address: "南京大学仙林校区计算机科学技术楼"
-  phone: "+86-25-89680000"
+  phone: ""
   email: "liujiaheng@nju.edu.cn"
   
 # 社交媒体
@@ -53,12 +53,4 @@ features:
   cms:
     branch: main
     local_backend: false
-
-# 导航栏配置
-navbar:
-  logo:
-    text: "NJU-LINK实验室"
-    filename: "nju_white.png"  # 在static/media/目录下
-    width: 40
-    height: 40
 
