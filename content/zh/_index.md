@@ -119,7 +119,7 @@ sections:
             <div class="teachers-grid">
                 <div class="teacher-card">
                   <a href="https://zhaoxiangzhang.net/" target="_blank">
-                    <img src="authors/张兆翔/avatar.jpg" alt="张兆翔教授" class="teacher-photo">
+                    <img src="/nju-link/zh/authors/张兆翔/avatar.jpg" alt="张兆翔教授" class="teacher-photo">
                   </a>
                   <div class="teacher-info">
                     <h4>张兆翔 教授</h4>
@@ -136,7 +136,7 @@ sections:
                 </div>
                 <div class="teacher-card">
                   <a href="https://liujiaheng.github.io/" target="_blank">
-                    <img src="authors/刘佳恒/avatar.jpg" alt="刘佳恒助理教授" class="teacher-photo">
+                    <img src="/nju-link/zh/authors/刘佳恒/avatar.jpg" alt="刘佳恒助理教授" class="teacher-photo">
                   </a>
                   <div class="teacher-info">
                     <h4>刘佳恒 助理教授</h4>
@@ -156,14 +156,14 @@ sections:
             <div class="students-grid">
               <a href="www.leexeo.com" class="student-card-link">
                 <div class="student-card">
-                  <img src="authors/李世昊/avatar.jpg" alt="李世昊" class="student-avatar">
+                  <img src="/nju-link/zh/authors/李世昊/avatar.jpg" alt="李世昊" class="student-avatar">
                   <div class="student-name">李世昊</div>
                   <div class="student-time">2025-至今</div>
                 </div>
               </a>
               <a href="/zh/authors/汪洋海/" class="student-card-link">
                 <div class="student-card">
-                  <img src="authors/汪洋海/avatar.jpg" alt="汪洋海" class="student-avatar">
+                  <img src="/nju-link/zh/authors/汪洋海/avatar.jpg" alt="汪洋海" class="student-avatar">
                   <div class="student-name">汪洋海</div>
                   <div class="student-time">2025-至今</div>
                 </div>
