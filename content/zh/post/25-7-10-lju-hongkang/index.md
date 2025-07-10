@@ -1,10 +1,16 @@
 ---
 title: 刘佳恒老师赴香港参加学术交流活动
-date: 2025-07-11
+date: 2025-07-10
 draft: false
 
 authors:
   - 刘佳恒
+
+image:
+  focal_point: ""
+  preview_only: true
+  width: 1000
+  height: 500
 
 tags:
   - 学术交流

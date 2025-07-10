@@ -48,9 +48,9 @@
 }
 
 .media.stream-item img {
- width: 300px;
-  height: auto;
-  object-fit: cover;
+ width: 350px;
+  height: 140px;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 768px) {
