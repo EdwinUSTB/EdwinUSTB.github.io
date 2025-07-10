@@ -1,0 +1,85 @@
+{{/* navbar.html */}}
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    {{/* Logo section - 最左侧logo */}}
+    <div class="navbar-brand-container d-flex align-items-center">
+      <div class="navbar-logos d-flex align-items-center">
+        <img src="{{ "media/nju_white.png" | relURL }}" alt="NJU Logo" class="navbar-nju-logo">
+      </div>
+    </div>
+
+    {{/* 移动端切换按钮 */}}
+    {{ if site.Menus.main }}
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+            data-bs-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="{{ i18n "toggle_navigation" }}">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    {{ end }}
+
+    {{/* 导航菜单内容 */}}
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      {{/* 左侧菜单项 */}}
+      {{ if site.Menus.main }}
+      <ul class="navbar-nav d-md-inline-flex">
+        {{ range site.Menus.main }}
+        {{ $current_page := $ }}
+        {{ if .HasChildren }}
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
+          </a>
+          <div class="dropdown-menu">
+            {{ range .Children }}
+            <a class="dropdown-item" href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
+              {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
+            </a>
+            {{ end }}
+          </div>
+        </li>
+        {{ else }}
+        <li class="nav-item">
+          <a class="nav-link {{ if $current_page.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
+            {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
+          </a>
+        </li>
+        {{ end }}
+        {{ end }}
+      </ul>
+      {{ end }}
+
+      {{/* 右侧工具栏 */}}
+      <ul class="navbar-nav d-md-inline-flex">
+
+        {{/* 搜索功能 */}}
+        {{ if site.Params.search.provider }}
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="{{ i18n "search" }}"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        {{ end }}
+
+        {{/* 语言切换 */}}
+        {{ if site.IsMultiLingual }}
+        <li class="nav-item dropdown i18n-dropdown">
+          <a href="#" class="nav-link " data-bs-toggle="dropdown" aria-haspopup="true" aria-label="{{ i18n "languages" }}">
+            <i class="fas fa-globe" aria-hidden="true"></i>
+            <span class="d-none d-lg-inline">{{ index site.Data.i18n.languages .Lang }}</span>
+          </a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item dropdown-item-active">
+              <span>{{ index site.Data.i18n.languages .Lang }}</span>
+            </div>
+            {{ range .Translations }}
+            <a class="dropdown-item" href="{{ .Permalink }}" data-target="{{ .URL }}">
+              <span>{{ index site.Data.i18n.languages .Lang }}</span>
+            </a>
+            {{ end }}
+          </div>
+        </li>
+        {{ end }}
+
+      </ul>
+    </div>
+  </div>
+</nav>

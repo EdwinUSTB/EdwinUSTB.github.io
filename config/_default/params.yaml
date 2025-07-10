@@ -1,118 +1,64 @@
-# SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-
-# Appearance
-
+# 主题配置 - 基于南京大学色彩
 appearance:
   theme_day: minimal
-  theme_night:
+  theme_night: minimal
   font: native
-  font_size: L
+  font_size: M
+  color_theme: 
+    primary: "#63065f"
+    secondary: "#7a356e"
+    accent: "#b85fa1"
 
-# SEO
+# 实验室信息
+site_type: Organization
+org_name: "南京大学大规模智能与知识实验室"
+description: "南京大学大规模智能与知识实验室致力于大规模智能系统和知识图谱的研究与应用，推动人工智能技术的发展。"
+lab_full_name: "南京大学大规模智能与知识实验室"
+lab_short_name: "NJU-LINK"
+lab_motto: "智能引领未来，科技服务社会"
+established: "2025"
+location: "南京大学苏州校区"
 
-marketing:
-  seo:
-    site_type: Organization
-    local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    google_tag_manager: ''
-    microsoft_clarity: ''
-  verification:
-    google: ''
-    baidu: ''
+# 联系信息
+contact_info:
+  address: "南京大学仙林校区计算机科学技术楼"
+  phone: "+86-25-89680000"
+  email: "contact@nju-link.org"
+  
+# 社交媒体
+social_links:
+  github: "https://github.com/nju-link"
+  wechat: "njulink_lab"
 
-# Site header
-
-header:
-  navbar:
-    enable: true
-    align: r
-    show_logo: true
-    show_language: false
-    show_day_night: true
-    show_search: true
-    highlight_active_link: false
-
-# Site footer
-
-footer:
-  copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
-
-# Localization
-
-locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
-  address_format: en-us
-
-# Site features
-
+# 功能特性
 features:
   syntax_highlighter:
-    enable: false
-    extra_languages:
-      - r
-      - latex
+    enable: true
+    theme_light: github-light
+    theme_dark: dracula
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/nju-link/website'
     content_dir: content
     branch: main
-  avatar:
-    gravatar: false
-    shape: circle
-  comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
   search:
     provider: wowchemy
     algolia:
       app_id: ''
       api_key: ''
       index_name: ''
-      show_logo: false
-  map:
-    provider: 'mapnik'
-    api_key: ''
-    zoom: 15
-
-# Extensions
-
-extensions:
-  decap_cms:
+  cms:
     branch: main
     local_backend: false
-  academicons:
-    enable: true
 
-# Citation style
+# 导航栏配置
+navbar:
+  logo:
+    text: "NJU-LINK实验室"
+    filename: "nju_white.png"  # 在static/media/目录下
+    width: 40
+    height: 40
 
-publications:
-  date_format: January 2006
-  citation_style: apa
