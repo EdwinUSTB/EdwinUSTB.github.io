@@ -12,7 +12,7 @@ sections:
       title: |
         <div class="hero-main">
           <div class="hero-left">
-            <img src="/media/logo.png" alt="NJU-LINK实验室" class="main-lab-logo">
+            <img src="/nju-link/media/logo.png" alt="NJU-LINK实验室" class="main-lab-logo">
           </div>
           <div class="hero-right">
             <div class="hero-text-container">
