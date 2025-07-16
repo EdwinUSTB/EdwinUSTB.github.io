@@ -1,5 +1,5 @@
 ---
-title: 实验室与字节跳动、复旦大学、北京大学等联合发布 A Survey onLatent Reasoning
+title: 实验室与字节跳动、复旦大学、北京大学等联合发布 A Survey on Latent Reasoning
 date: 2025-07-09
 draft: false
 

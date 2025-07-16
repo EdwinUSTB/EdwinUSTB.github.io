@@ -14,7 +14,7 @@ main:
     url: '/people/'
     weight: 30
   - name: 研究成果
-    url: '/publication/'
+    url: './publication/'
     weight: 40
   - name: 招生信息
     url: '/#recruitment'

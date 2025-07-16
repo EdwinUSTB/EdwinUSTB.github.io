@@ -67,34 +67,79 @@ sections:
     id: research
     content:
       title: 研究方向
-      subtitle: 我们的核心研究领域
+      subtitle: 我们的核心研究领域聚焦大模型技术
       text: |
         <div class="row">
-          <div class="col-md-4 mb-4">
+          <div class="col-md-3 mb-4">
             <div class="research-card">
               <div class="research-icon">
-                <i class="fas fa-robot fa-3x"></i>
+                <i class="fas fa-photo-video fa-3x"></i>
+              </div>
+              <h4>多模态</h4>
+              <p>视觉语言模型 · 图像生成</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="research-card">
+              <div class="research-icon">
+                <i class="fa-solid fa-users-gear fa-3x"></i>
+              </div>
+              <h4>智能体系统</h4>
+              <p>多智能体协作 · 自主决策</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="research-card">
+              <div class="research-icon">
+                <i class="fas fa-code fa-3x"/></i>
+              </div>
+              <h4>代码智能</h4>
+              <p>代码生成 · 程序修复</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="research-card">
+              <div class="research-icon">
+                <i class="fas fa-brain fa-3x"></i>
+              </div>
+              <h4>推理</h4>
+              <p>数学推理 · 思维链</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="research-card">
+              <div class="research-icon">
+                <i class="fa-solid fa-dumbbell fa-3x"></i>
+              </div>
+              <h4>大规模预训练</h4>
+              <p>数据处理 · 分布式训练</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="research-card">
+              <div class="research-icon">
+                <i class="fa-solid fa-list-check fa-3x"></i>
+              </div>
+              <h4>评估</h4>
+              <p>基准测试 · 能力评估</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="research-card">
+              <div class="research-icon">
+                <i class="fa-solid fa-robot fa-3x"></i>
               </div>
               <h4>具身智能</h4>
-              <p>多模态环境交互、智能体架构与进化、世界模型</p>
+              <p>环境交互 · 世界模型</p>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
+          <div class="col-md-3 mb-4">
             <div class="research-card">
               <div class="research-icon">
-                <i class="fas fa-comment-dots fa-3x"/></i>
+                <i class="fa-solid fa-cubes fa-3x"></i>
               </div>
-              <h4>大语言模型</h4>
-              <p>预训练、代码智能、加速</p>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="research-card">
-              <div class="research-icon">
-                <i class="fas fa-video fa-3x"></i>
-              </div>
-              <h4>多模态大模型</h4>
-              <p>视觉理解与生成、评估、推理与对齐</p>
+              <h4>三维重建</h4>
+              <p>点云处理 · 3D生成</p>
             </div>
           </div>
         </div>
