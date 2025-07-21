@@ -1,12 +1,12 @@
 ---
-title: 26fall招生火热进行中！
+title: 2026 Fall Admission in Progress!
 date: 2025-07-10
 draft: false
 
 authors:
-  - 刘佳恒
-  - 张兆翔
-  - 汪洋海
+  - jiaheng-liu
+  - zhaoxiang-zhang
+  - yanghai-wang
 
 image:
   focal_point: ""
@@ -15,14 +15,14 @@ image:
   height: 500
 
 tags:
-  - 招生
+  - Recruitment
 
 categories:
-  - 新闻
+  - News
 
-summary: 实验室依托南京大学智能科学与技术学院，与自动化所模式识别实验室（生物启发的智能计算研究组 BRAVE Group）联合招生
+summary: The laboratory is recruiting jointly with the School of Intelligent Science and Technology at Nanjing University and the Pattern Recognition Laboratory at the Institute of Automation (BRAVE Group - Bio-Inspired Intelligent Computing Research Group)
 
 ---
 
-实验室现有多名博士、硕士生名额，欢迎邮件联系。
+The laboratory currently has multiple PhD and Master's positions available. Please feel free to contact us via email.
 

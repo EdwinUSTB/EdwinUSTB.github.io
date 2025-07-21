@@ -67,34 +67,79 @@ sections:
     id: research
     content:
       title: Research Areas
-      subtitle: Our Core Research Fields
+      subtitle: Our Core Research Fields Focus on Large Model Technologies
       text: |
         <div class="row">
-          <div class="col-md-4 mb-4">
+          <div class="col-md-3 mb-4">
             <div class="research-card">
               <div class="research-icon">
-                <i class="fas fa-robot fa-3x"></i>
+                <i class="fas fa-photo-video fa-3x"></i>
+              </div>
+              <h4>Multimodal</h4>
+              <p>Vision-Language Models · Image Generation</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="research-card">
+              <div class="research-icon">
+                <i class="fa-solid fa-users-gear fa-3x"></i>
+              </div>
+              <h4>Agent Systems</h4>
+              <p>Multi-Agent Collaboration · Autonomous Decision Making</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="research-card">
+              <div class="research-icon">
+                <i class="fas fa-code fa-3x"/></i>
+              </div>
+              <h4>Code Intelligence</h4>
+              <p>Code Generation · Program Repair</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="research-card">
+              <div class="research-icon">
+                <i class="fas fa-brain fa-3x"></i>
+              </div>
+              <h4>Reasoning</h4>
+              <p>Mathematical Reasoning · Chain of Thought</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="research-card">
+              <div class="research-icon">
+                <i class="fa-solid fa-dumbbell fa-3x"></i>
+              </div>
+              <h4>Large-scale Pre-training</h4>
+              <p>Data Processing · Distributed Training</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="research-card">
+              <div class="research-icon">
+                <i class="fa-solid fa-list-check fa-3x"></i>
+              </div>
+              <h4>Evaluation</h4>
+              <p>Benchmarking · Capability Assessment</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="research-card">
+              <div class="research-icon">
+                <i class="fa-solid fa-robot fa-3x"></i>
               </div>
               <h4>Embodied Intelligence</h4>
-              <p>Multimodal environment interaction, agent architecture and evolution, world models</p>
+              <p>Environment Interaction · World Models</p>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
+          <div class="col-md-3 mb-4">
             <div class="research-card">
               <div class="research-icon">
-                <i class="fas fa-comment-dots fa-3x"></i>
+                <i class="fa-solid fa-cubes fa-3x"></i>
               </div>
-              <h4>Large Language Models</h4>
-              <p>Pre-training, code intelligence, acceleration</p>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="research-card">
-              <div class="research-icon">
-                <i class="fas fa-video fa-3x"></i>
-              </div>
-              <h4>Multimodal Large Models</h4>
-              <p>Visual understanding and generation, evaluation, reasoning and alignment</p>
+              <h4>3D Reconstruction</h4>
+              <p>Point Cloud Processing · 3D Generation</p>
             </div>
           </div>
         </div>

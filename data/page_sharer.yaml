@@ -1,3 +1,4 @@
+# 本地页面分享器配置 - 禁用所有社交分享按钮
 # Hugo Blox
 # Social sharing links
 # Docs: https://docs.hugoblox.com/reference/page-sharer/
@@ -28,28 +29,3 @@ links:
     title: WhatsApp
     icon: brands/whatsapp
     enable: false
-#  - id: weibo
-#    url: 'https://service.weibo.com/share/share.php?url={url}&title={title}'
-#    title: Weibo
-#    icon: weibo
-#    enable: true
-#  - id: reddit
-#    url: 'https://reddit.com/submit?url={url}&title={title}'
-#    title: Reddit
-#    icon: brands/reddit
-#    enable: false
-#  - id: pinterest
-#    url: 'https://pinterest.com/pin/create/link/?url={url}&description={title}'
-#    title: Pinterest
-#    icon: pinterest
-#    enable: false
-#  - id: xing
-#    url: 'https://www.xing.com/spi/shares/new?url={url}&title={title}'
-#    title: Xing
-#    icon: xing
-#    enable: false
-#  - id: tumblr
-#    url: 'https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}'
-#    title: Tumblr
-#    icon: tumblr
-#    enable: false

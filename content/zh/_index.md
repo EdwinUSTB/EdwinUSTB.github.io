@@ -168,8 +168,8 @@ sections:
                   </a>
                   <div class="teacher-info">
                     <h4>张兆翔 教授</h4>
-                    <div class="teacher-title">博士生导师 · 实验室主任</div>
-                    <div class="teacher-bio"><strong>教育部长江学者</strong>，<strong>国家万人计划青年拔尖人才</strong>，<strong>教育部新世纪优秀人才</strong>。
+                    <div class="teacher-title">博士生导师</div>
+                    <div class="teacher-bio"><strong>教育部长江学者</strong>，<strong>国家万人计划青年拔尖人才</strong>，<strong>教育部新世纪优秀人才</strong>
                       <br><a href="https://nlpr.ia.ac.cn/cn/index.html" target="_blank">中国科学院自动化研究所多模态人工智能系统实验室</a>与<a href="http://cripac.ia.ac.cn/CN/model/index.htm" target="_blank">模式识别实验室</a>研究员、博士生导师，
                       <a href="http://www.ucas.ac.cn/" target="_blank">中国科学院大学</a>岗位教授，
                       <a href="http://www.cebs.ac.cn/" target="_blank">中国科学院脑科学与智能技术卓越创新中心</a>骨干，
@@ -185,8 +185,8 @@ sections:
                   </a>
                   <div class="teacher-info">
                     <h4>刘佳恒 助理教授</h4>
-                    <div class="teacher-title">博士生导师 · 实验室常务副主任</div>
-                    <div class="teacher-bio"><strong>阿里星</strong>，<strong>多模态艺术投影 （M-A-P） 的创始成员之一</strong>。
+                    <div class="teacher-title">博士生导师 </div>
+                    <div class="teacher-bio"><strong>阿里星</strong>，<strong>多模态艺术投影 （M-A-P） 的创始成员之一</strong>
                       <br>近年来，已在ICML、NeurIPS、ICLR、ACL、CVPR、ICCV等国际权威学术期刊和会议发表论文50余篇，其中一作和通讯20余篇，谷歌学术引用2000余次，并获得ACL 2024 Outstanding Paper Award (杰出论文奖)。长期担任IEEE TPAMI，TIP，NeurIPS，ICLR，CVPR，ICCV等国际权威学术期刊和会议审稿人和ACL ARR领域主席，并作为组织者在国际顶级学术会议ICLR组织大模型基座研讨会。</br>
                     </div>
                     <div class="teacher-research"><strong>研究方向：</strong>大语言模型和多模态大模型的预训练、对齐、代码智能、评估等</div>
