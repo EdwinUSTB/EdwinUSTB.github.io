@@ -168,7 +168,7 @@ sections:
                   </a>
                   <div class="teacher-info">
                     <h4>Prof. Zhaoxiang Zhang</h4>
-                    <div class="teacher-title">PhD Supervisor · Laboratory Director</div>
+                    <div class="teacher-title">PhD Supervisor</div>
                     <div class="teacher-bio"><strong>Cheung Kong Scholar of the Ministry of Education</strong>, <strong>Young Top-notch Talent of the National Ten Thousand Talents Program</strong>, <strong>New Century Excellent Talent of the Ministry of Education</strong>.
                       <br>Researcher and PhD supervisor at the <a href="https://nlpr.ia.ac.cn/cn/index.html" target="_blank">Multimodal Artificial Intelligence Systems Laboratory</a> and <a href="http://cripac.ia.ac.cn/CN/model/index.htm" target="_blank">Pattern Recognition Laboratory</a> of the Institute of Automation, Chinese Academy of Sciences,
                       Professor at <a href="http://www.ucas.ac.cn/" target="_blank">University of Chinese Academy of Sciences</a>,
@@ -185,7 +185,7 @@ sections:
                   </a>
                   <div class="teacher-info">
                     <h4>Asst. Prof. Jiaheng Liu</h4>
-                    <div class="teacher-title">PhD Supervisor · Executive Deputy Director</div>
+                    <div class="teacher-title">PhD Supervisor</div>
                     <div class="teacher-bio"><strong>Alibaba Star</strong>, <strong>One of the founding members of Multimodal Art Projection (M-A-P)</strong>.
                       <br>In recent years, he has published more than 50 papers in top international academic journals and conferences such as ICML, NeurIPS, ICLR, ACL, CVPR, ICCV, with more than 20 first-author and corresponding-author papers, over 2000 Google Scholar citations, and received the ACL 2024 Outstanding Paper Award. He has long served as a reviewer for top international academic journals and conferences such as IEEE TPAMI, TIP, NeurIPS, ICLR, CVPR, ICCV and as an ACL ARR Area Chair, and organized large model foundation workshops at the top international academic conference ICLR.</br>
                     </div>

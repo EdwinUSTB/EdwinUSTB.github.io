@@ -1,10 +1,10 @@
 ---
-title: 刘佳恒老师赴香港参加学术交流活动
+title: Teacher Liu Jiaheng to Hong Kong for Academic Exchange Activities
 date: 2025-07-10
 draft: false
 
 authors:
-  - 刘佳恒
+  - Liu Jiaheng
 
 image:
   focal_point: ""
@@ -13,13 +13,13 @@ image:
   height: 500
 
 tags:
-  - 学术交流
+  - Academic Exchange
 
 categories:
-  - 新闻
+  - News
 
-summary: 应香港中文大学欧阳万里教授的邀请，刘佳恒老师拟于2025 年 07月 18 日至 2025 年 08 月 16 日赴香港参加学术交流。
+summary: Invited by Professor Ouyang Wanli from The Chinese University of Hong Kong, Teacher Liu Jiaheng is scheduled to visit Hong Kong for academic exchange from July 18, 2025 to August 16, 2025.
 
 ---
 
-刘佳恒老师此次赴香港交流产生的相关费用由南京大学唐君远苏港科创合作青年学者交流项目-南京大学苏港科创合作专项基金承担。现已通过公示，公示地址：https://is.nju.edu.cn/bb/ea/c61335a769002/page.htm
+The related expenses for Teacher Liu Jiaheng's exchange visit to Hong Kong will be covered by the Nanjing University Tang Junyuan Su-Hong Science and Innovation Cooperation Young Scholar Exchange Program - Nanjing University Su-Hong Science and Innovation Cooperation Special Fund. The arrangement has been approved through public announcement, announcement link: https://is.nju.edu.cn/bb/ea/c61335a769002/page.htm
