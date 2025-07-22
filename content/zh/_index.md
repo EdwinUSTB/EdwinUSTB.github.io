@@ -186,7 +186,7 @@ sections:
                   <div class="teacher-info">
                     <h4>刘佳恒 助理教授</h4>
                     <div class="teacher-title">博士生导师 </div>
-                    <div class="teacher-bio"><strong>阿里星</strong>，<strong>多模态艺术投影 （M-A-P） 的创始成员之一</strong>
+                    <div class="teacher-bio"><strong>阿里星</strong>，<strong><a href="https://huggingface.co/m-a-p" target="_blank">开源大模型组织 M-A-P</a> 的创始成员之一</strong>
                       <br>近年来，已在ICML、NeurIPS、ICLR、ACL、CVPR、ICCV等国际权威学术期刊和会议发表论文50余篇，其中一作和通讯20余篇，谷歌学术引用2000余次，并获得ACL 2024 Outstanding Paper Award (杰出论文奖)。长期担任IEEE TPAMI，TIP，NeurIPS，ICLR，CVPR，ICCV等国际权威学术期刊和会议审稿人和ACL ARR领域主席，并作为组织者在国际顶级学术会议ICLR组织大模型基座研讨会。</br>
                     </div>
                     <div class="teacher-research"><strong>研究方向：</strong>大语言模型和多模态大模型的预训练、对齐、代码智能、评估等</div>

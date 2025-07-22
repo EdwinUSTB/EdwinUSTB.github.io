@@ -186,7 +186,7 @@ sections:
                   <div class="teacher-info">
                     <h4>Asst. Prof. Jiaheng Liu</h4>
                     <div class="teacher-title">PhD Supervisor</div>
-                    <div class="teacher-bio"><strong>Alibaba Star</strong>, <strong>One of the founding members of Multimodal Art Projection (M-A-P)</strong>.
+                    <div class="teacher-bio"><strong>Alibaba Star</strong>, <strong>One of the founding members of <a href="https://huggingface.co/m-a-p" target="_blank">Open-source large model organization M-A-P</a></strong>.
                       <br>In recent years, he has published more than 50 papers in top international academic journals and conferences such as ICML, NeurIPS, ICLR, ACL, CVPR, ICCV, with more than 20 first-author and corresponding-author papers, over 2000 Google Scholar citations, and received the ACL 2024 Outstanding Paper Award. He has long served as a reviewer for top international academic journals and conferences such as IEEE TPAMI, TIP, NeurIPS, ICLR, CVPR, ICCV and as an ACL ARR Area Chair, and organized large model foundation workshops at the top international academic conference ICLR.</br>
                     </div>
                     <div class="teacher-research"><strong>Research Areas:</strong> Pre-training, alignment, code intelligence, and evaluation of large language models and multimodal large models</div>
