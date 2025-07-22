@@ -54,7 +54,7 @@ This laboratory maintains substantial computational resources and sufficient res
 
 ## **Recruitment Information**
 ### Target Candidates
-This research intern recruitment is aimed at: **Class of 2023 undergraduates in related majors** (junior year starting in September)
+This research intern recruitment is aimed at: **Class of 2024 undergraduates in related majors** (sophomore year starting in September) and **Class of 2023 undergraduates in related majors** (junior year starting in September)
 
 ### Research Directions
 The laboratory welcomes undergraduates interested in the following research directions to join us in frontline research:
