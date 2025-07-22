@@ -26,6 +26,21 @@ summary: The laboratory is recruiting multiple undergraduate research interns fr
 ## **Laboratory Introduction**
 The Large-scale Intelligence and Knowledge Laboratory (NJU-LINK) at Nanjing University, led by Professor Zhaoxiang Zhang and Assistant Professor Jiaheng Liu, focuses on cutting-edge technologies in the field of large models, conducting in-depth collaboration with leading domestic internet technology companies and first-class research institutions worldwide to explore the latest research achievements in today's popular AI directions.
 
+### Introduction to the Mentor
+Jiaheng Liu is currently an Assistant Professor and Special-Term Researcher at the School of Artificial Intelligence, Nanjing University.
+
+After earning his Ph.D. in 2023, Dr. Liu was selected for the Alibaba Star program and worked at Alibaba until February 2025. He has published over 60 papers in internationally renowned academic journals and conferences.
+
+A summary of Dr. Liu’s recent achievements includes:
+- ACL 2025 (13 papers accepted, 10 Main + 3 Findings): Covering code intelligence, long-chain reasoning, large model security, factual correctness evaluation, complex instruction following, multimodal understanding, large model alignment, planning and decision-making, and more.
+- ICLR 2025 (4 papers accepted): Covering agents, large model reasoning, music generation, code intelligence, and more.
+- NAACL 2025 (2 papers accepted, 1 Main + 3 Findings): Covering large model security, large model alignment, and more.
+- AAAI 2025 (2 papers accepted): Covering large model reasoning, table understanding based on large models, and more.
+- NeurIPS 2024 (4 papers accepted): Covering large model distillation, vertical domain large model training, agents, large model evaluation, and more.
+- ACL 2024 (7 papers accepted, 4 Main + 3 Findings, including 1 Outstanding Paper Award): Covering large model safety alignment, long-text enhancement for large models, multi-turn dialogue, code intelligence, large model evaluation, and more.
+- EMNLP 2024 (1 paper accepted, 1 Findings): Focused on long-text understanding in large models.
+- ICML 2024 (1 paper accepted): Focused on large model compression.
+
 ### Our Collaborators
 The laboratory currently maintains deep cooperation with Kuaishou, ByteDance, Alibaba, Shanghai AI Lab, StepFun, and other organizations, with abundant research projects and internship opportunities.
 

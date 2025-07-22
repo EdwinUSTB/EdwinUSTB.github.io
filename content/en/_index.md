@@ -12,16 +12,16 @@ sections:
       title: |
         <div class="hero-main">
           <div class="hero-left">
-            <img src="/nju-link/media/logo.png" alt="NJU-LINK Laboratory" class="main-lab-logo">
+            <img src="/nju-link/media/logo.png" alt="NJU-LINK Lab" class="main-lab-logo">
           </div>
           <div class="hero-right">
             <div class="hero-text-container">
-              <h1 class="hero-title">NJU-LINK Laboratory</h1>
+              <h1 class="hero-title">NJU-LINK Lab</h1>
               <h2 class="hero-subtitle">Large-scale Intelligence and Knowledge Lab, Nanjing University</h2>
               <div class="hero-description">
                 <p>
                 <br>Focused on cutting-edge research and applications in artificial intelligence, covering key technological fields including embodied intelligence, large language models, and multimodal large models.</br>
-                <br>The laboratory has established long-term stable partnerships with leading domestic technology companies such as Kuaishou, Alibaba, ByteDance, and Shanghai AI Lab, conducting in-depth collaborative research on world models, large model training, inference, and evaluation. The laboratory is equipped with rich computational resources and high-quality data assets, providing solid support for high-level research.</br>
+                <br>The Lab has established long-term stable partnerships with leading domestic technology companies such as Kuaishou, Alibaba, ByteDance, and Shanghai AI Lab, conducting in-depth collaborative research on world models, large model training, inference, and evaluation. The Lab is equipped with rich computational resources and high-quality data assets, providing solid support for high-level research.</br>
                 <br>We firmly believe that open collaboration and continuous exploration are the key paths to advancing artificial intelligence toward general intelligence. We welcome more like-minded partners to join us in driving technological transformation and industrial innovation in the intelligent era.</br>
                 </p>
               </div>
@@ -43,7 +43,7 @@ sections:
     id: news
     content:
       title: Latest News
-      subtitle: Laboratory Updates & Announcements
+      subtitle: Lab Updates & Announcements
       text: ""
       count: 5
       filters:
@@ -170,10 +170,10 @@ sections:
                     <h4>Prof. Zhaoxiang Zhang</h4>
                     <div class="teacher-title">PhD Supervisor</div>
                     <div class="teacher-bio"><strong>Cheung Kong Scholar of the Ministry of Education</strong>, <strong>Young Top-notch Talent of the National Ten Thousand Talents Program</strong>, <strong>New Century Excellent Talent of the Ministry of Education</strong>.
-                      <br>Researcher and PhD supervisor at the <a href="https://nlpr.ia.ac.cn/cn/index.html" target="_blank">Multimodal Artificial Intelligence Systems Laboratory</a> and <a href="http://cripac.ia.ac.cn/CN/model/index.htm" target="_blank">Pattern Recognition Laboratory</a> of the Institute of Automation, Chinese Academy of Sciences,
+                      <br>Researcher and PhD supervisor at the <a href="https://nlpr.ia.ac.cn/cn/index.html" target="_blank">Multimodal Artificial Intelligence Systems Lab</a> and <a href="http://cripac.ia.ac.cn/CN/model/index.htm" target="_blank">Pattern Recognition Lab</a> of the Institute of Automation, Chinese Academy of Sciences,
                       Professor at <a href="http://www.ucas.ac.cn/" target="_blank">University of Chinese Academy of Sciences</a>,
                       Core member of the <a href="http://www.cebs.ac.cn/" target="_blank">Center for Excellence in Brain Science and Intelligence Technology, Chinese Academy of Sciences</a>,
-                      Executive Deputy Director of the <a href="http://www.cripac.ia.ac.cn/CN/column/column144.shtml" target="_blank">Pattern Recognition Laboratory, Institute of Automation, Chinese Academy of Sciences</a>.</br>
+                      Executive Deputy Director of the <a href="http://www.cripac.ia.ac.cn/CN/column/column144.shtml" target="_blank">Pattern Recognition Lab, Institute of Automation, Chinese Academy of Sciences</a>.</br>
                       <br>IEEE Senior Member, VALSE Standing AC, CCF Distinguished Member, CAAI Distinguished Member, CAAI Deputy Secretary-General, CAAI Board Member, Secretary-General of CAAI Pattern Recognition Committee</br>
                     </div>
                     <div class="teacher-research"><strong>Research Areas:</strong> Visual cognitive computing, brain-inspired learning, embodied intelligence, and visual perception and understanding for open environments</div>
