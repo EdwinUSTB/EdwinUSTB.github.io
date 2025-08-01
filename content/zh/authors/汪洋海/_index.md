@@ -36,6 +36,15 @@ organizations:
 # 简短简介（显示在文章结尾的用户资料中）
 bio: 南京大学 NJU-LINK 实验室硕士研究生，专注于人工智能与大模型技术研究。
 
+education:
+  courses:
+    - course: 人工智能-硕士研究生
+      institution: 南京大学
+      year: 2025-至今
+    - course: 人工智能-学士
+      institution: 南京大学
+      year: 2021-2025
+
 # 技能
 skills:
   - name: 技术技能

@@ -12,7 +12,7 @@ sections:
       title: |
         <div class="hero-main">
           <div class="hero-left">
-            <img src="/nju-link/media/logo.png" alt="NJU-LINK实验室" class="main-lab-logo">
+            <img src="/media/logo.png" alt="NJU-LINK实验室" class="main-lab-logo">
           </div>
           <div class="hero-right">
             <div class="hero-text-container">
@@ -206,7 +206,7 @@ sections:
                   <div class="student-time">2025-至今</div>
                 </div>
               </a>
-              <a href="/zh/authors/汪洋海/" class="student-card-link">
+              <a href="https://www.nju-link.com/zh/" class="student-card-link">
                 <div class="student-card">
                   <img src="author/yanghai-wang/avatar.jpg" alt="汪洋海" class="student-avatar">
                   <div class="student-name">汪洋海</div>
