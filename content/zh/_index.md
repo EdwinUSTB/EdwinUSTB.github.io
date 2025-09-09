@@ -21,7 +21,7 @@ sections:
               <div class="hero-description">
                 <p>
                 <br>专注于人工智能前沿方向的研究与应用，涵盖具身智能、大语言模型以及多模态大模型等关键技术领域。</br>
-                <br>实验室与快手、阿里巴巴、字节跳动、上海人工智能实验室（Shanghai AI Lab）等国内领先科技企业建立了长期稳定的合作关系，围绕世界模型、大模型训练、推理与评估等方向展开深入合作研究。实验室具备丰富的算力资源以及高质量数据资产，为高水平科研提供坚实保障。</br>
+                <br>实验室与快手、阿里巴巴、字节跳动、上海人工智能实验室、阶跃星辰等国内领先科技企业建立了长期稳定的合作关系，围绕世界模型、大模型训练、推理与评估等方向展开深入合作研究。实验室具备丰富的算力资源以及高质量数据资产，为高水平科研提供坚实保障。</br>
                 <br>我们坚信，开放合作与持续探索是推动人工智能迈向通用智能的关键路径。欢迎更多志同道合的伙伴加入我们，共同推动智能时代的技术变革与产业创新。</br>
                 </p>
               </div>
@@ -210,6 +210,13 @@ sections:
                 <div class="student-card">
                   <img src="author/yanghai-wang/avatar.jpg" alt="汪洋海" class="student-avatar">
                   <div class="student-name">汪洋海</div>
+                  <div class="student-time">2025-至今</div>
+                </div>
+              </a>
+              <a href="https://www.nju-link.com/zh/" class="student-card-link">
+                <div class="student-card">
+                  <img src="author/qianqian-xie/avatar.jpg" alt="解千千" class="student-avatar">
+                  <div class="student-name">解千千</div>
                   <div class="student-time">2025-至今</div>
                 </div>
               </a>

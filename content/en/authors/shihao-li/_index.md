@@ -30,11 +30,11 @@ user_groups:
 organizations:
   - name: Nanjing University
     url: https://www.nju.edu.cn/
-  - name: NJU-LINK Laboratory
+  - name: NJU-LINK Lab
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: Master student at NJU-LINK Laboratory, passionate about artificial intelligence research.
+bio: Master student at NJU-LINK Lab, passionate about artificial intelligence research.
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.

@@ -385,16 +385,77 @@
   .teacher-card {
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    padding: 1.5rem;
   }
   
   .teacher-photo {
     margin-right: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    width: 200px;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .teacher-info {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .teacher-info h4 {
+    text-align: center;
+  }
+  
+  .teacher-title {
+    text-align: center;
+  }
+  
+  .teacher-bio {
+    text-align: center;
+  }
+  
+  .teacher-research {
+    text-align: center;
   }
   
   .students-grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1rem;
+  }
+}
+
+/* 更小屏幕的适配 */
+@media (max-width: 480px) {
+  .teacher-card {
+    padding: 1rem;
+  }
+  
+  .teacher-photo {
+    width: 180px;
+    height: 240px;
+    margin-bottom: 1rem;
+  }
+  
+  .teacher-info h4 {
+    font-size: 1.3rem;
+  }
+  
+  .teacher-title {
+    font-size: 1rem;
+  }
+  
+  .teacher-bio {
+    font-size: 0.9rem;
+  }
+  
+  .teacher-research {
+    font-size: 0.9rem;
+  }
+  
+  .students-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   }
 }
 
@@ -405,6 +466,16 @@
   color: inherit;
   display: block;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 移动端教师照片链接居中 */
+@media (max-width: 768px) {
+  .teacher-photo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+  }
 }
 
 .teacher-photo:hover,
@@ -1097,6 +1168,16 @@
   position: relative;
 }
 
+/* 移动端布局 - 纵向排列 */
+@media (max-width: 768px) {
+  .hero-main {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    padding: 1rem;
+  }
+}
+
 /* 整体半透明背景板 - 覆盖logo和文字区域 */
 .hero-main::before {
   content: '';
@@ -1151,6 +1232,14 @@
   border: none !important;
   text-align: left !important;
   box-shadow: none !important;
+}
+
+/* 移动端文字容器居中 */
+@media (max-width: 768px) {
+  .hero-text-container {
+    text-align: center !important;
+    padding: 2rem !important;
+  }
 }
 
 .hero-title {
@@ -1221,7 +1310,7 @@
   .hero-main .main-lab-logo,
   .block-hero .main-lab-logo,
   .hero-left .main-lab-logo {
-    height: 250px !important;
+    height: 400px !important;
   }
 }
 
@@ -1229,7 +1318,29 @@
   .hero-main .main-lab-logo,
   .block-hero .main-lab-logo,
   .hero-left .main-lab-logo {
-    height: 200px !important;
+    height: 300px !important;
+  }
+  
+  /* 移动端hero区域样式调整 */
+  .hero-left {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-right {
+    width: 100%;
+  }
+  
+  .hero-title {
+    font-size: 2.2rem !important;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem !important;
+  }
+  
+  .hero-description {
+    font-size: 1rem !important;
   }
 }
 
@@ -1237,7 +1348,19 @@
   .hero-main .main-lab-logo,
   .block-hero .main-lab-logo,
   .hero-left .main-lab-logo {
-    height: 150px !important;
+    height: 250px !important;
+  }
+  
+  .hero-title {
+    font-size: 1.8rem !important;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.1rem !important;
+  }
+  
+  .hero-description {
+    font-size: 0.95rem !important;
   }
 }
 

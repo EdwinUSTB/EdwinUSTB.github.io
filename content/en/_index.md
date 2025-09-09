@@ -21,7 +21,7 @@ sections:
               <div class="hero-description">
                 <p>
                 <br>Focused on cutting-edge research and applications in artificial intelligence, covering key technological fields including embodied intelligence, large language models, and multimodal large models.</br>
-                <br>The Lab has established long-term stable partnerships with leading domestic technology companies such as Kuaishou, Alibaba, ByteDance, and Shanghai AI Lab, conducting in-depth collaborative research on world models, large model training, inference, and evaluation. The Lab is equipped with rich computational resources and high-quality data assets, providing solid support for high-level research.</br>
+                <br>The Lab has established long-term stable partnerships with leading domestic technology companies such as Kuaishou, Alibaba, ByteDance, Shanghai AI Lab and StepFun, conducting in-depth collaborative research on world models, large model training, inference, and evaluation. The Lab is equipped with rich computational resources and high-quality data assets, providing solid support for high-level research.</br>
                 <br>We firmly believe that open collaboration and continuous exploration are the key paths to advancing artificial intelligence toward general intelligence. We welcome more like-minded partners to join us in driving technological transformation and industrial innovation in the intelligent era.</br>
                 </p>
               </div>
@@ -210,6 +210,13 @@ sections:
                 <div class="student-card">
                   <img src="author/yanghai-wang/avatar.jpg" alt="Yanghai Wang" class="student-avatar">
                   <div class="student-name">Yanghai Wang</div>
+                  <div class="student-time">2025-Present</div>
+                </div>
+              </a>
+              <a href="https://www.nju-link.com/zh/" class="student-card-link">
+                <div class="student-card">
+                  <img src="author/qianqian-xie/avatar.jpg" alt="Qianqian Xie" class="student-avatar">
+                  <div class="student-name">Qianqian Xie</div>
                   <div class="student-time">2025-Present</div>
                 </div>
               </a>
