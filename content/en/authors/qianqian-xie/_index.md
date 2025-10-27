@@ -1,6 +1,6 @@
 ---
 # 显示名称
-title: 解千千
+title: Qianqian Xie
 
 # 名字发音（可选）
 name_pronunciation: ''

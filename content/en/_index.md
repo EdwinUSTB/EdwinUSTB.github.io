@@ -220,6 +220,13 @@ sections:
                   <div class="student-time">2025-Present</div>
                 </div>
               </a>
+              <a href="https://www.nju-link.com/zh/" class="student-card-link">
+                <div class="student-card">
+                  <img src="author/tao-wang/avatar.jpg" alt="Tao Wang" class="student-avatar">
+                  <div class="student-name">Tao Wang</div>
+                  <div class="student-time">2025-Present</div>
+                </div>
+              </a>
             </div>
           </div>
           
